@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="main_color">#EE4100</color>
+    <color name="second_color">#FA7254</color>
+
+    <color name="white">#ffffff</color>
+    <color name="sub_text_title">#979797</color>
+    <color name="sub_text_title99">#aaefefef</color>
+    <color name="play_list_line_color">#ECEEF0</color>
+
+    <color name="black">#000000</color>
+
+    <color name="play_list_text_color">#7D828C</color>
+</resources>

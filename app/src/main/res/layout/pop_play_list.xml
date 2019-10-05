@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_play_list_bg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/play_list_controller_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:id="@+id/play_list_play_mode_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/play_list_play_mode_iv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/selector_play_mode_list_revers" />
+
+            <TextView
+                android:id="@+id/play_list_play_mode_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="顺序播放"
+                android:textColor="@color/second_color"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/play_list_order_container"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/play_list_order_iv"
+                android:layout_width="20dp"
+                android:src="@drawable/selector_play_mode_list_revers"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/play_list_order_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="顺序"
+                android:textColor="@color/second_color"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/play_list_rv"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/play_list_controller_container" />
+
+
+    <TextView
+        android:id="@+id/play_list_close_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play_list_rv"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="关闭"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
