@@ -12,6 +12,6 @@ open.ximalaya.com
 
 项目截图：
 
-![2019-10-05_225218](C:\Users\TrillGates\Desktop\JavaTest\Himalaya\pics\2019-10-05_225218.png)
+![2019-10-05_225218](https://github.com/TrillGates/XimalayaDemo/blob/master/pics/2019-10-05_225218.png)
 
 .
